@@ -1,1 +1,146 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+    background: green;
+    font-family: Arial, sans-serif;
+}
+
+.encabezado {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: orange;
+}
+
+#textoContador {
+    font-size: 30px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+#contadorCartas {
+    color: #FF6347;
+    font-size: 40px; 
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+a.button {
+    display: block;
+    width: 300px;
+    height: 50px;
+    background: #FF6347;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+}
+
+a.button:hover {
+    background: #FF4500;
+}
+
+.card {
+    width: 300px;
+    height: 440px;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.card p {
+    font: 150px/440px Arial, serif;
+    text-align: center;
+}
+
+div.palo-Corazones:before {
+    content: "♥";
+    font-size: 90px;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    color: red;
+}
+
+div.palo-Corazones:after {
+    content: "♥";
+    font-size: 90px;
+    position: absolute;
+    bottom: 8px;
+    right: 20px;
+    color: red;
+    transform: rotate(180deg);
+}
+
+div.palo-Rombos:before {
+    content: "♦";
+    font-size: 90px;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    color: red;
+}
+
+div.palo-Rombos:after {
+    content: "♦";
+    font-size: 90px;
+    position: absolute;
+    bottom: 8px;
+    right: 20px;
+    color: red;
+    transform: rotate(180deg);
+}
+
+div.palo-Picas:before {
+    content: "♠";
+    font-size: 90px;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    color: black;
+}
+
+div.palo-Picas:after {
+    content: "♠";
+    font-size: 90px;
+    position: absolute;
+    bottom: 8px;
+    right: 20px;
+    color: black;
+    transform: rotate(180deg);
+}
+
+ div.palo-Treboles:before {
+    content: "♣";
+    font-size: 90px;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    color: black;
+}
+
+div.palo-Treboles:after {
+    content: "♣";
+    font-size: 90px;
+    position: absolute;
+    bottom: 8px;
+    right: 20px;
+    color: black;
+    transform: rotate(180deg);
+}
